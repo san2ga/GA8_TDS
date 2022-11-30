@@ -10,11 +10,11 @@ with header:
 with userinput:
 	st.subheader('please enter the input')
 	st.text('the output is a * b')
-	num1 = st.number_input(label="enter a",step=1.,formate="%.2f")
-	num2 = st.number_input(label="enter b",step=1.,formate="%.2f")
+	num1 = st.number_input(label="enter a",step=1.,format="%.2f")
+	num2 = st.number_input(label="enter b",step=1.,format="%.2f")
 
 def prod(num1,num2):
-	ans = num1	* num2
+	ans = num1 * num2
 	return ans
 ans = prod(num1,num2)
 
