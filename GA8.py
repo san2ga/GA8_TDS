@@ -20,4 +20,4 @@ ans = prod(num1,num2)
 
 with output:
 	st.subheader('please see the output below :')
-	st.markdown(f'Answer is{ans}')	
+	st.markdown(f'Answer is {ans}')	
